@@ -2,7 +2,7 @@
 Esse é um projeto onde você pode criar, ler, filtrar, atualizar e deletar avaliações.
 
 ## Iniciando o projeto
-Para executar o projeto é necessário ter o **Node.js** e o **npm** instalados em seu sistema.
+Para executar o projeto é necessário ter o **Node.js**, **MongoDB** e o **npm** instalados em seu sistema.
 Para instalar as dependências do projeto você deve executar a linha de código abaixo em seu terminal.
 
 ```bash
@@ -34,10 +34,23 @@ MONGODB_URL=mongodb://localhost:27017/meubanco
   npm run create:seeder
 ```
 
+
 ## Em seguida, execute o comando a seguir para executar o projeto:
 
 ```bash
   npm run dev
+```
+
+## Ao executar o projeto, você pode acessar o sistema com os seguintes usuários:
+
+```dotenv
+# Usuário Admin(Contém todas as permissôes, incluindo cadastrar roles e permissions)
+email = admin@example.com
+password = admin123
+
+# Usuário Basic(Contém permissôes limitadas, só tem acesso aos endpoints de avaliações)
+email = basic@example.com
+password = basic123
 ```
 
 ## O seu terminal irá exibir:
