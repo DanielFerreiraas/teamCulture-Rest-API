@@ -74,9 +74,11 @@ password = basic123
 
 ## Tecnologias utilizadas
 - [NodeJs](https://nodejs.org/pt)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/)
 - [Jest](https://jestjs.io/docs/next/getting-started)
 - [Supertest](https://www.npmjs.com/package/supertest)
+- [Swagger](https://swagger.io/)
 - [MongoDB](https://www.mongodb.com/)
 
 ## Testes Unitários e de Integração
