@@ -53,10 +53,9 @@ MONGODB_URL=mongodb://localhost:27017/meubanco
 ```
 
 ## Documentação do Swagger
-É possível ver a documentação em execução na Url retornada no terminal:
+É possível visualizar a documentação em execução na Url retornada no terminal:
 
 ```bash
- Started Server
   [2024-07-22 18:44:00.190 -0300] INFO (354721): Docs available at http://localhost:<sua porta>/docs
 ```
 
@@ -67,7 +66,7 @@ MONGODB_URL=mongodb://localhost:27017/meubanco
 - [Supertest](https://www.npmjs.com/package/supertest)
 - [MongoDB](https://www.mongodb.com/)
 
-## Testes
+## Testes Unitários e de Integração
 Para realização de testes você deve executar os seguintes comandos:
 
 **Test Witch Watch Silent**
