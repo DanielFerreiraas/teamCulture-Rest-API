@@ -14,7 +14,6 @@
     "prestart:dev": "NODE_ENV=development npm run clearAndBuild",
     "test": "NODE_ENV=test jest --runInBand --silent tests/",
     "test:unit": "NODE_ENV=test jest --runInBand -c jest.unit.config.ts tests/",
-    "test:e2e": "NODE_ENV=test jest --runInBand -c jest.e2e.config.ts tests/",
     "test:dev": "NODE_ENV=test jest --runInBand --watchAll --silent tests/",
     "test:dev:verbose": "NODE_ENV=test jest --runInBand --watchAll tests/",
     "test:coverage": "NODE_ENV=test jest --runInBand --coverage tests/",
