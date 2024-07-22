@@ -80,6 +80,7 @@ password = basic123
 - [Jest](https://jestjs.io/docs/next/getting-started)
 - [Supertest](https://www.npmjs.com/package/supertest)
 - [Swagger](https://swagger.io/)
+- [Zod](https://zod.dev/)
 - [MongoDB](https://www.mongodb.com/)
 
 ## Testes Unitários e de Integração
