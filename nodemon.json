@@ -1,0 +1,8 @@
+{
+  "colours": true,
+  "verbose": false,
+  "ignore": [".git", "node_modules", "coverage", "build"],
+  "watch": ["src"],
+  "ext": "ts,js",
+  "exec": "npm run start:dev"
+}

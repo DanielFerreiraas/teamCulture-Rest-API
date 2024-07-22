@@ -1,0 +1,99 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "npm run clearAndBuild && npm start",
+      "name": "Run Server as Production",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "command": "npm run dev",
+      "name": "Start Dev with Watch",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "command": "npm run create:seeder",
+      "name": "Run Seeder",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "command": "npm t",
+      "name": "Test Once",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "command": "npm run test:dev",
+      "name": "Test with Watch Silent",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "command": "npm run test:dev:verbose",
+      "name": "Test with Watch Verbose",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "command": "npm run test:coverage",
+      "name": "Test Coverage",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+    },
+    {
+      "command": "npm run build",
+      "name": "Build",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+    },
+    {
+      "command": "npm run clear",
+      "name": "Clear",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+    },
+    {
+      "command": "npm run clearAndBuild",
+      "name": "Clear and Build",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+    }
+  ]
+}
