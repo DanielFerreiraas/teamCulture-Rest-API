@@ -79,7 +79,7 @@ Para realização de testes você deve executar os seguintes comandos:
    npm run test:dev:verbose
 ```
 
-**Testes Coverage**
+**Test Coverage**
 ```bash
    npm run test:coverage
 ```
