@@ -41,6 +41,18 @@ MONGODB_URL=mongodb://localhost:27017/meubanco
   npm run dev
 ```
 
+## O seu terminal irá exibir:
+
+```bash
+ Started Server
+  [2024-07-22 18:44:00.187 -0300] INFO (354721): InitDb started
+  [2024-07-22 18:44:00.189 -0300] INFO (354721): development
+  [2024-07-22 18:44:00.189 -0300] INFO (354721): Server is running
+  [2024-07-22 18:44:00.189 -0300] INFO (354721): on http://localhost:<sua porta>
+  [2024-07-22 18:44:00.190 -0300] INFO (354721): RunServer started
+  [2024-07-22 18:44:00.190 -0300] INFO (354721): Docs available at http://localhost:<sua porta>/docs
+```
+
 ## Ao executar o projeto, você pode acessar o sistema com os seguintes usuários:
 
 ```dotenv
@@ -53,17 +65,6 @@ email = basic@example.com
 password = basic123
 ```
 
-## O seu terminal irá exibir:
-
-```bash
- Started Server
-  [2024-07-22 18:44:00.187 -0300] INFO (354721): InitDb started
-  [2024-07-22 18:44:00.189 -0300] INFO (354721): development
-  [2024-07-22 18:44:00.189 -0300] INFO (354721): Server is running
-  [2024-07-22 18:44:00.189 -0300] INFO (354721): on http://localhost:<sua porta>
-  [2024-07-22 18:44:00.190 -0300] INFO (354721): RunServer started
-  [2024-07-22 18:44:00.190 -0300] INFO (354721): Docs available at http://localhost:<sua porta>/docs
-```
 
 ## Documentação do Swagger
 É possível visualizar a documentação em execução na Url retornada no terminal:
