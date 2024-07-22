@@ -6,7 +6,7 @@ Para executar o projeto é necessário ter o **Node.js** e o **npm** instalados 
 Para instalar as dependências do projeto você deve executar a linha de código abaixo em seu terminal.
 
 ```bash
-  npm i
+  npm install
 ```
 
 crie um arquivo chamado .env na raiz do projeto e adicione as variárveis de ambiente seguindo o exemplo do arquivo .env.example
