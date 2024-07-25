@@ -86,12 +86,12 @@ password = basic123
 ## Testes Unitários e de Integração
 Para realização de testes você deve executar os seguintes comandos:
 
-**Test Witch Wath Silent**
+**Test With Watch Silent**
 ```bash
    npm run test:dev
 ```
 
-**Test Witch Wath Verbose**
+**Test With Watch Verbose**
 ```bash
    npm run test:dev:verbose
 ```
